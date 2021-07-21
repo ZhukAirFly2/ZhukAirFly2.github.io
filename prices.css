@@ -1,0 +1,310 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+body > img {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+}
+
+body > div {
+    box-shadow:4px 4px 5px rgba(0,0,0,0.42);
+    margin-right: 30px;
+    width: 360px;
+    height: 450px;
+    border-radius: 5px;
+    background: #eeeeee;
+    display: inline-block;
+}
+
+.div1 {
+    position: relative;
+    top: -200px;
+}
+
+.div2 {
+    position: relative;
+    top: -165px;
+}
+
+.div3 {
+    position: relative;
+    top: -131px;
+}
+
+body > div > h2 {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+}
+
+body > div > p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+
+ul {
+    text-align: left;
+    font-size: 20px;
+}
+
+z {
+    color: #64dd16;
+}
+
+j {
+    color: orange;
+}
+
+g {
+    color: red;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+body > h2 {
+    margin-top: -80px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.adiv {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -64px;
+    left: 0px;
+}
+
+.transaction {
+    color: white;
+    text-align: center;
+    background: #2979ff;
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -3px;
+    left: 0px;
+    opacity: 0;
+    box-shadow: none;
+    transition: 0.2s;
+    float: right;
+}
+
+.transaction > p {
+    position: relative;
+    top: -7px;
+    font-size: 20px;
+    color: white;
+}
+
+.reys {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #2979ff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 470px;
+    display: block;
+    width: 550px;
+    height: 50px;
+    background: #eeeeee;
+    box-shadow:0px 4px 5px rgba(0,0,0,0.42);
+    margin-bottom: 20px;
+}
+
+.reys1:hover .transaction1 {
+    opacity: 1;
+    position: relative;
+    top: -3px;
+    left: 100px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+}
+
+.reys2:hover .transaction2 {
+    opacity: 1;
+    position: relative;
+    top: -3px;
+    left: 100px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+}
+
+.reys3:hover .transaction3 {
+    opacity: 1;
+    position: relative;
+    top: -3px;
+    left: 100px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+}
+
+.reys4:hover .transaction4 {
+    opacity: 1;
+    position: relative;
+    top: -3px;
+    left: 100px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+}
+
+.reys > p {
+    position: relative;
+    top: 9px;
+    left: 7px;
+}
+
+.loading {
+    text-align: left;
+    font-size: 24px;
+    margin-top: 85px;
+    margin-left: 46%;
+    margin-bottom: 150px;
+}
+
+.divLoading {
+    position: absolute;
+    top: 1357px;
+    left: 35%;
+    background: linear-gradient(to left, white, rgba(0,0,0,0));
+    width: 150px;
+    height: 26px;
+    box-shadow: none;
+    border-radius: 0px;
+    animation: loading 3s infinite;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px){
+    body > div {
+        width: 250px;
+        height: 400px;
+    }
+    
+    .back {
+        display: none;
+    }
+    
+    .reys {
+        box-shadow: none;
+    }
+    
+    .div1 {
+        position: relative;
+        top: -200px;
+    }
+    
+    .transaction > p{
+        font-size: 30px;
+        position: relative;
+        top: -25px;
+    }
+    
+    .adiv {
+        position: relative;
+        top: -64px;
+        left: 150px;
+    }
+    
+    .transaction {
+        float: right;
+        width: 150px;
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        box-shadow: 4px 4px 5px rgba(0,0,0,0);
+    }
+    
+    .reys:hover .transaction {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        
+    }
+    
+    .reys {
+        box-shadow: 0px 4px 5px rgba(0,0,0,0);
+    }
+
+    .div2 {
+        position: relative;
+        top: -146px;
+    }
+
+    .div3 {
+        position: relative;
+        top: -92px;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 110px;
+        right: 90px;
+    }
+    
+    .divLoading {
+        position: absolute;
+        left: 30%;
+        top: 1182px;
+        background: linear-gradient(to left, white, rgba(0,0,0,0));
+    }
+    
+    @keyframes loading {
+        from {
+            position: absolute;
+            top: 1143px;
+            left: 30%;
+        }
+        to {
+            position: absolute;
+            top: 1143px;
+            left: 53%;
+        }
+    }
+    
+    .reys {
+        margin-left: 140px;
+    }
+}
+
+@keyframes loading {
+    from {
+        position: absolute;
+        bottom: -592px;
+        left: 35%;
+    }
+    to {
+        position: absolute;
+        bottom: -592px;
+        left: 53%;
+    }
+}

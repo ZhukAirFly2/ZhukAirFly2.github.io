@@ -1,0 +1,65 @@
+body {
+    background: url(sea-horizon-light-cloud-sky-sun-sunrise-sunset-sunlight-morning-wind-dawn-atmosphere-dusk-daytime-evening-afterglow-atmospheric-phenomenon-atmosphere-of-earth-49046.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+#location {
+    align-content: center;
+    display: block;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    outline: none;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+}
+
+
+#location::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin-left: 370px;
+    display: block;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    color: #2979ff;
+    outline: none;
+    width: 50%;
+    height: 70px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow:4px 4px 5px rgba(0,0,0,0.42);
+    cursor: pointer;
+}
+
+@media (max-width: 1024px){
+    #location {
+        margin-left: 30px;
+    }
+    
+    button {
+        margin-left: 260px;
+    }
+}

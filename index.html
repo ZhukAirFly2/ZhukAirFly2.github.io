@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ZhukAir - Авиакомпания</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pngwing.com%20(18).png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header id="top">
+        <img class="ImgHeader1" src="pngwing.com%20(17).png" alt="">
+        <img class="ImgHeader2" src="pngwing1.com.png" alt="">
+        <h1 class="H1Header">Авиакомпания  ZhukAir</h1>
+        <h2 class="H2Header">Получайте самое лучшее<br>
+            обслуживание и безопасное<br>
+            качество по выгодным ценам</h2>
+        <a class="AHeader" href="#main"><img class="ImgHeader3" src="pngwing3.com.png" alt=""></a>
+    </header>
+    <main id="main">
+        <div class="section1">
+            <h2>Наслаждайтесь каждой<br>секундой полёта за<br>минимальную
+            стоимость</h2>
+            <a href='prices.html'><button class='But1'>Узнать подробнее</button></a>
+        </div>
+        <div class="section2">
+            <h2>Самолёты только из<br> самых экологичных<br>материалов</h2>
+            <a href='eco2.html'><button class='But2'>Узнать подробнее</button></a>
+        </div>
+        <div class="section3">
+            <img src="pngwing.com%20(20).png" alt="">
+            <h2>Не переживайте за<br>Вашу безопасность!<br>У нас самые<br>качественные самолёты</h2>
+            <a href='save.html'><button class='But3'>Узнать подробнее</button></a>
+        </div>
+    </main>
+       <footer>
+            <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div>
+                <img src="discount-removebg-preview.png">
+                <p>Большие скидки</p>
+            </div>
+            <div>
+                <img src="money-removebg-preview.png">
+                <p>Дешёвые цены</p>
+            </div>
+            <div class="maindiv">
+                <img src="settings-removebg-preview.png">
+                <p>Лучшее качество</p>
+            </div>
+    </footer>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>

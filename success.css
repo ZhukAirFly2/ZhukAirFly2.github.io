@@ -1,0 +1,28 @@
+body {
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    color: #2979ff;
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+img {
+    margin-top: 50px;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: #2979ff;
+}
+
+div {
+    height: 753px;
+}
+
+@media (max-width: 1024px){
+    div {
+        height: 2115px;
+    }
+}
