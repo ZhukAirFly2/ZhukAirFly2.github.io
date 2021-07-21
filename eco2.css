@@ -73,11 +73,6 @@ div > img {
         bottom: 0px;
     }
     
-    .div1 {
-        position: relative;
-        top: 1px;
-    }
-    
     div > p {
         font-size: 18px;
     }
