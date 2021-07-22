@@ -1,0 +1,82 @@
+body {
+    background: url(mountains-55067.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    font-family: roboto, sans-serif;
+    text-align: center;
+}
+
+main {
+    background: white;
+    margin-top: 400px;
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+}
+
+.p1 {
+    font-size: 23px;
+    text-align: left;
+}
+
+.extra {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #52f915;
+    display: inline-block;
+    color: #52f915;
+}
+
+div > img {
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    .p1 {
+        font-size: 30px;
+    }
+    
+    .extra {
+        margin-top: 100px;
+    }
+    
+    main {
+        position: absolute;
+        bottom: 0px;
+    }
+    
+    .div3 {
+        margin-right: 10px;
+    }
+    
+    .div1 {
+        margin-left: 0px;
+    }
+    
+    div > p {
+        font-size: 18px;
+    }
+}
