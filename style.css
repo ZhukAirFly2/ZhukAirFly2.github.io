@@ -295,7 +295,8 @@ button:hover {
     footer > h2 {
         font-size: 40px; 
         width: 500px;
-        text-align: center;
+        position: relative;
+        right: -220px;
     }
     
     footer > div > p {
