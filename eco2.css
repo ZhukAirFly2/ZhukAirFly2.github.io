@@ -80,7 +80,7 @@ div > img {
     .div1 {
         margin-left: 0px;
         position: relative;
-        top: 0px;
+        top: -20px;
     }
     
     div > p {
