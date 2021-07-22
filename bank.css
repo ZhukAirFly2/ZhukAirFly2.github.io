@@ -66,5 +66,6 @@ button:hover {
         background: linear-gradient(45deg, #EECFBA, #C5DDE8);
         background-repeat: no-repeat;
         background-size: cover;
+        height: 1800px;
     }
 }
