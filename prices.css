@@ -108,7 +108,7 @@ body > h2 {
     width: 100px;
     height: 50px;
     position: relative;
-    top: -3px;
+    top: 0px;
     left: 0px;
     opacity: 0;
     box-shadow: none;
@@ -132,7 +132,7 @@ body > h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 470px;
+    margin-left: 400px;
     display: block;
     width: 550px;
     height: 50px;
@@ -144,7 +144,7 @@ body > h2 {
 .reys1:hover .transaction1 {
     opacity: 1;
     position: relative;
-    top: -3px;
+    top: 0px;
     left: 100px;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
@@ -152,7 +152,7 @@ body > h2 {
 .reys2:hover .transaction2 {
     opacity: 1;
     position: relative;
-    top: -3px;
+    top: 0px;
     left: 100px;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
@@ -160,7 +160,7 @@ body > h2 {
 .reys3:hover .transaction3 {
     opacity: 1;
     position: relative;
-    top: -3px;
+    top: 0px;
     left: 100px;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
@@ -168,7 +168,7 @@ body > h2 {
 .reys4:hover .transaction4 {
     opacity: 1;
     position: relative;
-    top: -3px;
+    top: 0px;
     left: 100px;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
@@ -191,7 +191,7 @@ body > h2 {
     position: absolute;
     top: 1357px;
     left: 35%;
-    background: linear-gradient(to left, white, rgba(0,0,0,0));
+    background: linear-gradient(to left, red, rgba(0,0,0,0));
     width: 150px;
     height: 26px;
     box-shadow: none;
