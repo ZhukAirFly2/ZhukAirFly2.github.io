@@ -112,6 +112,8 @@ h2 {
     
     main {
         height: 1800px;
+        position: relative;
+        top: -100px;
     }
     
     .divinfo {
